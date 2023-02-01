@@ -1,6 +1,6 @@
 [Input]
 ;case data filename
-CaseFile=/Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/2023_MP_CASES_01.01.2019-28.12.2020/data_grouped.csv
+CaseFile=./2023_MP_CASES_01.01.2019-28.12.2020.cas
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 CaseFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -22,7 +22,7 @@ StartDate=2000/1/1
 ;study period end date (YYYY/MM/DD)
 EndDate=2000/12/31
 ;population data filename
-PopulationFile=/Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/2023_MP_CASES_01.01.2019-28.12.2020/2023_MP_CASES_14.11.2019-14.03.2020.pop
+PopulationFile=./2023_MP_CASES_01.01.2019-28.12.2020.pop
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 PopulationFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -36,7 +36,7 @@ PopulationFile-SourceSkip=0
 ;csv source first row column header
 PopulationFile-SourceFirstRowHeader=n
 ;coordinate data filename
-CoordinatesFile=/Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/2023_MP_CASES_01.01.2019-28.12.2020/2023_MP_CASES_14.11.2019-14.03.2020_LOCATIONS.geo
+CoordinatesFile=./2023_MP_CASES_01.01.2019-28.12.2020_LOCATIONS.geo
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 CoordinatesFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -70,7 +70,7 @@ TimeAggregationLength=1
 
 [Output]
 ;analysis main results output filename
-ResultsFile=/Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/2023_MP_CASES_01.01.2019-28.12.2020/TEST
+ResultsFile=./RAND_ACTUAL
 ;output Google Earth KML file (y/n)
 OutputGoogleEarthKML=n
 ;output shapefiles (y/n)
