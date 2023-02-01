@@ -1,6 +1,6 @@
 [Input]
 ;case data filename
-CaseFile=/Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/summer_MP_SCAT/summer_cases.txt
+CaseFile=./summer_cases.cas
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 CaseFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -14,7 +14,7 @@ CaseFile-SourceSkip=0
 ;csv source first row column header
 CaseFile-SourceFirstRowHeader=n
 ;control data filename
-ControlFile=/Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/summer_MP_SCAT/summer_contr.txt
+ControlFile=./summer_contr.ctr
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 ControlFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -36,7 +36,7 @@ EndDate=2000/12/31
 ;population data filename
 PopulationFile=
 ;coordinate data filename
-CoordinatesFile=/Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/summer_MP_SCAT/summer_geo.geo
+CoordinatesFile=./summer_geo.geo
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 CoordinatesFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -70,7 +70,7 @@ TimeAggregationLength=1
 
 [Output]
 ;analysis main results output filename
-ResultsFile=/Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/summer_MP_SCAT/RAND_ACTUAL
+ResultsFile=./RAND_ACTUAL
 ;output Google Earth KML file (y/n)
 OutputGoogleEarthKML=n
 ;output shapefiles (y/n)
