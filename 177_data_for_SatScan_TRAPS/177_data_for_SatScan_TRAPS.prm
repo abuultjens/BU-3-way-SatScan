@@ -1,6 +1,6 @@
 [Input]
 ;case data filename
-CaseFile=./177_data_for_SatScan_CASES.cas
+CaseFile=./177_data_for_SatScan_TRAPS/177_data_for_SatScan_CASES.cas
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 CaseFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -14,7 +14,7 @@ CaseFile-SourceSkip=0
 ;csv source first row column header
 CaseFile-SourceFirstRowHeader=n
 ;control data filename
-ControlFile=./177_data_for_SatScan_CONTROLS.ctr
+ControlFile=./177_data_for_SatScan_TRAPS/177_data_for_SatScan_CONTROLS.ctr
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 ControlFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -36,7 +36,7 @@ EndDate=2000/12/31
 ;population data filename
 PopulationFile=
 ;coordinate data filename
-CoordinatesFile=./177_data_for_SatScan_LOCATIONS.geo
+CoordinatesFile=./177_data_for_SatScan_TRAPS/177_data_for_SatScan_LOCATIONS.geo
 ;source type (CSV=0, DBASE=1, SHAPE=2)
 CoordinatesFile-SourceType=0
 ;source field map (comma separated list of integers, oneCount, generatedId, shapeX, shapeY)
@@ -70,7 +70,7 @@ TimeAggregationLength=1
 
 [Output]
 ;analysis main results output filename
-ResultsFile=./RAND_ACTUAL
+ResultsFile=./177_data_for_SatScan_TRAPS/RAND_ACTUAL
 ;output Google Earth KML file (y/n)
 OutputGoogleEarthKML=y
 ;output shapefiles (y/n)
