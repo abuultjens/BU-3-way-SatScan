@@ -1,0 +1,167 @@
+                                 _____________________________
+
+                                         SaTScan v10.1
+                                 _____________________________
+
+
+Program run on: Thu Mar  9 13:32:25 2023
+
+Purely Spatial analysis
+scanning for clusters with high rates
+using the Bernoulli model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 2000/1/1 to 2000/12/31
+Number of locations................: 174
+Total population...................: 177
+Total number of cases..............: 23
+Percent cases in area..............: 13.0
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: eb, ec, ee, de
+  Overlap with clusters.: No Overlap
+  Coordinates / radius..: (38.361795 S, 144.773008 E) / 0.52 km
+  Gini Cluster..........: No
+  Population............: 4
+  Number of cases.......: 3
+  Expected cases........: 0.52
+  Observed / expected...: 5.77
+  Relative risk.........: 6.49
+  Percent cases in area.: 75.0
+  Log likelihood ratio..: 4.174296
+  P-value...............: 0.472
+
+2.Location IDs included.: ia, hf
+  Overlap with clusters.: No Overlap
+  Coordinates / radius..: (38.369744 S, 144.808556 E) / 0.34 km
+  Gini Cluster..........: No
+  Population............: 2
+  Number of cases.......: 2
+  Expected cases........: 0.26
+  Observed / expected...: 7.70
+  Relative risk.........: 8.33
+  Percent cases in area.: 100.0
+  Log likelihood ratio..: 4.159561
+  P-value...............: 0.915
+
+NOTE: The sequential Monte Carlo procedure was used to terminate the calculations after 106
+replications.
+
+
+Note: The coordinates file contains location IDs with identical coordinates that were combined
+into one location. In the optional output files, combined locations are represented by a single
+location ID as follows:
+-----------------------------------------------------------------------------------------------
+achA : aga
+aeaA : aebA
+aeg : aegA
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/177_data_for_SatScan_CASES.cas
+  Control File     : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/177_data_for_SatScan_CONTROLS.ctl
+  Time Precision   : None
+  Start Time       : 2000/1/1
+  End Time         : 2000/12/31
+  Coordinates File : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/177_data_for_SatScan_LOCATIONS.geo
+  Coordinates      : Latitude/Longitude
+
+Analysis
+--------
+  Type of Analysis    : Purely Spatial
+  Probability Model   : Bernoulli
+  Scan for Areas with : High Rates
+
+Output
+------
+  Main Results File       : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL
+  Cluster File            : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.col.txt
+  Shapefile (Cluster)     : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.col.shp
+  Cluster File            : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.col.dbf
+  Stratified Cluster File : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.sci.txt
+  Location File           : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.gis.txt
+  Location File           : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.gis.dbf
+  Shapefile (Locations)   : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.gis.shp
+  Risk Estimates File     : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.rr.txt
+  Simulated LLRs File     : /Users/abuultjens/Google Drive/OneDrive/PhD/Bioinformatics/Mozzie_surveillance/3-way_SatScan/177_TRAPS_AGAIN_AGAIN/ACTUAL.llr.txt
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidean Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Locations Network
+-----------------
+  Use Locations Network File : No
+  Locations Network File     : 
+  Locations Network Purpose  : Network Definition
+
+Line List
+---------
+  Line list data, file wizard. : Yes
+  Events Cache File            : 
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Window Shape                 : Circular
+  Isotonic Scan                : No
+
+Cluster Restrictions
+--------------------
+  Minimum Cases in Cluster for High Rates : 2
+  Restrict High Rate Clusters             : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 999
+  Adjusting for More Likely Clusters : No
+
+Cluster Drilldown
+-----------------
+  Standard Drilldown on Detected Clusters : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters              : Yes
+  Criteria for Reporting Secondary Clusters : No Geographical Overlap
+  Report Gini Optimized Cluster Collection  : Yes
+  Gini Index Based Collection Reporting     : Optimal Only
+  Report Gini Index Cluster Coefficents     : No
+  Restrict Reporting to Smaller Clusters    : No
+
+Other Output
+------------
+  Cluster Significant by P-value Cutoff : No
+  Report Critical Values                : No
+  Report Monte Carlo Rank               : No
+  Print ASCII Column Headers            : No
+
+Alerts
+------
+  Send Summary of Analysis Results by Email : No
+
+Run Options
+-----------
+  Processor Usage   : All Available Processors
+  Suppress Warnings : No
+  Logging Analysis  : No
+_______________________________________________________________________________________________
+
+Program completed  : Thu Mar  9 13:32:27 2023
+Total Running Time : 2 seconds
+Processor Usage    : 8 processors
