@@ -17,7 +17,7 @@ PRAM=summer_MP_SCAT.prm
 	--CoordinatesFile ${WD}/RAND_${TAXA}_${GEO} \
 	--ResultsFile ${WD}/RAND_${TAXA}.txt
 
-WD=177_TRAPS_AGAIN
+WD=177_TRAPS_AGAIN_AGAIN
 GEO=177_data_for_SatScan_LOCATIONS.geo
 PRAM=177_data_for_SatScan_TRAPS.prm
 
